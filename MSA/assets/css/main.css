@@ -1,0 +1,75 @@
+   .camera {
+    height: 160px;
+  }
+  
+  .semaforo {
+    margin: 0px auto;
+    height: 165px;
+    background-position: center;
+    background-size: contain;
+    width: 110px;
+    display: block;
+    transition: 1.0s;
+  }
+
+  .dis-table {
+    display: table;
+  }
+
+  .dis-table .table-cell {
+    display: table-cell;
+  }
+  
+  .sinal-verde {
+    background-image: url('assets/images/sinal_verde.png');
+  }
+  
+  .sinal-amarelo {
+    background-image: url('assets/images/sinal_amarelo.png');
+  }
+  
+  .sinal-vermelho {
+    background-image: url('assets/images/sinal_vermelho.png');
+  }
+
+  .sema-select {
+    width:230px;  
+    margin:0px auto;
+  }
+
+
+@media(min-width: 240px){
+    .img_semaforo {
+        width: 80px;
+  }  
+
+  /* Muito Pequeno */
+@media(min-width: 360px){
+  .img_semaforo {
+      width: 100px;
+  }
+}
+
+@media (min-width: 576px) {
+  .img_semaforo {
+    width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .img_semaforo {
+      width: 130px;
+  }
+}
+
+@media (min-width: 992px) {
+  .img_semaforo {
+      width: 135px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img_semaforo {
+      width: 145px;
+  }
+}
